@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad25276995b5ce4b930f02bac992be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleValue: 0.5
+  scaleAndMassValue: 0.5
 --- !u!212 &1352865809
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1884,7 +1884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad25276995b5ce4b930f02bac992be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleValue: 2
+  scaleAndMassValue: 2
 --- !u!212 &1870966207
 SpriteRenderer:
   m_ObjectHideFlags: 0

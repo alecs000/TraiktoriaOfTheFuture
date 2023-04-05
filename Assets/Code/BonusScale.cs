@@ -11,7 +11,7 @@ public class BonusScale : MonoBehaviour
         if (collision.transform.TryGetComponent(out PlayerMovement playerMovement))
         {
             playerMovement.transform.DOScale(scaleAndMassValue, 1);
-            playerMovement.GetComponent<Rigidbody>().mass = scaleAndMassValue;
+            playerMovement.GetComponent<Rigidbody2D>().mass = scaleAndMassValue;
             Destroy(gameObject);
         }
     }
